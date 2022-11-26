@@ -1,0 +1,13 @@
+meses=float(input('Quantos meses você trabalhou por completo? '))
+
+if meses >=12:
+    ferias=input('Você tem disponibilidade para tirar férias em janeiro e dezembro,?(S/N) ')
+    
+else: print('Tiago não pode sair de férias')
+
+if ferias =='S':
+    print('Você pode tirar férias')
+    
+if ferias =='N':
+    print('Tiago não pode sair de férias')
+    quit()
