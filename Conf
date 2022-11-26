@@ -1,0 +1,10 @@
+graus = int(input("Quantos graus está fazendo hoje?"))
+
+if graus >= 25:
+   print("Oba! O PDA pode marcar a data! ")
+
+elif (graus <= 25) and (graus >=15):
+   print("Vamos! O que vale é a companhia!")
+
+else:
+     print ("Estará muito frio, não podemos alugar nessa data")
