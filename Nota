@@ -1,0 +1,12 @@
+nota=float(input('Qual foi sua nota? '))
+
+print('Sua nota é: ',nota)
+
+if nota >=7:
+    print('aprovado')
+    
+elif nota <=5:
+    print('reprovado')
+    
+else: 
+    print('recuperação')
